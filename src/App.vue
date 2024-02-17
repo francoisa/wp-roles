@@ -4,17 +4,17 @@ import Header from './components/Header.vue'
 </script>
 
 <template>
-  <Header msg="Wordpress Roles" />
-  <header>
-    <b-container>
+    <main>
+      <Header msg="Wordpress Roles" />
+      <div class="container">
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
       </nav>
-    </b-container>
-  </header>
-
-  <RouterView />
+    </div>
+    <div>&nbsp;</div>
+    <RouterView />
+    </main>
 </template>
 
 <style scoped>
@@ -30,7 +30,7 @@ header {
 
 nav {
   width: 100%;
-  font-size: 12px;
+  font-size: 16px;
   text-align: center;
   margin-top: 2rem;
 }
@@ -46,6 +46,7 @@ nav a.router-link-exact-active:hover {
 nav a {
   display: inline-block;
   padding: 0 1rem;
+  text-decoration: none;
   border-left: 1px solid var(--color-border);
 }
 

@@ -7,7 +7,7 @@
 </script>
 
 <template>
-  <ul>
-    <li v-for="role in roles" :key="role">{{ role }}</li>
+  <ul class="list-group">
+    <li class="list-group-item" v-for="role in roles" :key="role">{{ role }}</li>
   </ul>
 </template>

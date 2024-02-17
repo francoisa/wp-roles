@@ -50,3 +50,5 @@ npm run test:unit
 ```sh
 npm run lint
 ```
+
+https://wordpress.org/documentation/article/roles-and-capabilities/#administrator

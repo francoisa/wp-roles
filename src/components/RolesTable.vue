@@ -18,9 +18,9 @@ const roles = [
 
 <template>
   <table class="table">
-    <thead>
+    <thead class="table-dark">
       <tr>
-        <th v-for="role in roles" :key="role.name">{{ role.name }}</th>
+        <th class="text-center" scope="col" v-for="role in roles" :key="role.name">{{ role.name }}</th>
       </tr>
     </thead>
     <tbody>
