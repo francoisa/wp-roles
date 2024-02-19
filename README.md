@@ -51,4 +51,4 @@ npm run test:unit
 npm run lint
 ```
 
-https://wordpress.org/documentation/article/roles-and-capabilities/#administrator
+https://wordpress.org/documentation/article/roles-and-capabilities

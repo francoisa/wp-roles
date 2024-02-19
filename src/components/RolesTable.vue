@@ -41,6 +41,12 @@ function setCapability(p: string) {
       So the Contrinutor role contains the capabilities of the Subscriber role (i.e read),
       plus the new capabilities (i.e. delete_posts, edit_posts).
       </p>
+      <p>
+        The <a href="https://wordpress.org/documentation/article/roles-and-capabilities">wordpress</a> 
+        site has a description of the roles and capabilites associated with each role.
+        Also note that two roles: 'Customer' and 'Shop Manager' are specific to the WooCommerce plugin
+        which we do not use, so those roles should not be used.
+      </p>
     </div>
   </div>
   <div class="col">
